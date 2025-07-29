@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efc972b-0925-402d-bc6d-6b13ca61d3f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drizzle.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/env/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drizzle/db.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drizzle/schema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drizzle/schema/jobListing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drizzle/schema/jobListingApplication.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drizzle/schema/organization.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drizzle/schema/organizationUserSettings.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drizzle/schema/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drizzle/schema/userNotificationSettings.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drizzle/schema/userResume.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drizzle/schemaHelpers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_AppSidebarClient.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_AppSidebarClient.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
@@ -41,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "karankadyan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/karankadyan/Hirevo.git",
+    "accountId": "5c6bad8d-bbfb-45a7-b7e3-80067d048c7c"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 1
@@ -93,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753764001577</updated>
-      <workItem from="1753764002908" duration="6719000" />
+      <workItem from="1753764002908" duration="9175000" />
     </task>
     <servers />
   </component>
