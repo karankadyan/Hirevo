@@ -1,4 +1,4 @@
-import {ReactNode} from "react";
+import {ReactNode, Suspense} from "react";
 import {SidebarGroup, SidebarGroupAction, SidebarGroupLabel} from "@/components/ui/sidebar";
 import {SidebarUserButton} from "@/features/users/components/SidebarUserButton";
 import {AppSidebar} from "@/components/sidebar/AppSidebar";
@@ -6,9 +6,21 @@ import {SidebarNavMenuGroup} from "@/components/sidebar/SidebarNavMenuGroup";
 import {ClipboardListIcon, PlusIcon} from "lucide-react";
 import Link from "next/link";
 import {SidebarOrganizationButton} from "@/features/organizations/components/SidebarOrganizationButton";
+import {redirect} from "next/navigation";
+import {getCurrentOrganization} from "@/services/clerk/lib/getCurrentAuth";
 
+export default function EmployerLayout({ children }: { children: ReactNode }) {
+    return (
+        <Suspense>
+            <LayoutSuspense>{children}</LayoutSuspense>
+        </Suspense>
+    )
+}
 
-export default function EmployerLayout({children}: { children: ReactNode }) {
+async function LayoutSuspense({children}: { children: ReactNode }) {
+    const { orgId } = await getCurrentOrganization()
+    if (orgId == null) return redirect("/organizations/select")
+
     return (
         <AppSidebar content={
             <>

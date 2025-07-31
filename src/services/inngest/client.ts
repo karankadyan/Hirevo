@@ -1,7 +1,11 @@
 import {EventSchemas, Inngest} from "inngest";
-import {DeletedObjectJSON, UserJSON} from "@clerk/nextjs/server";
+import {
+    DeletedObjectJSON,
+    OrganizationJSON,
+    UserJSON,
+} from "@clerk/nextjs/server"
 
-type ClerkWebHookData<T> = {
+type ClerkWebhookData<T> = {
     data: {
         data: T
         raw: string
@@ -10,8 +14,12 @@ type ClerkWebHookData<T> = {
 }
 
 type Events = {
-    "clerk/user.created": ClerkWebHookData<UserJSON>
-    "clerk/user.updated": ClerkWebHookData<UserJSON>
-    "clerk/user.deleted": ClerkWebHookData<DeletedObjectJSON>
+    "clerk/user.created": ClerkWebhookData<UserJSON>
+    "clerk/user.updated": ClerkWebhookData<UserJSON>
+    "clerk/user.deleted": ClerkWebhookData<DeletedObjectJSON>
+    "clerk/organization.created": ClerkWebhookData<OrganizationJSON>
+    "clerk/organization.updated": ClerkWebhookData<OrganizationJSON>
+    "clerk/organization.deleted": ClerkWebhookData<DeletedObjectJSON>
+
 }
 export const inngest = new Inngest({ id: "hirevo", schemas: new EventSchemas().fromRecord<Events>(),})
