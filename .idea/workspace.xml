@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efc972b-0925-402d-bc6d-6b13ca61d3f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/employer/job-listings/[jobListingId]/edit/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/employer/pricing/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ActionButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AsyncIf.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/jobListings/components/JobListingBadges.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/jobListings/lib/planfeatureHelpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/jobListings/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/clerk/components/PricingTable.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/clerk/lib/orgUserPermissions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/clerk/lib/planFeatures.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/employer/_JobListingMenugroup.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employer/job-listings/[jobListingId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/employer/job-listings/[jobListingId]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/SidebarNavMenuGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/SidebarNavMenuGroup.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/badge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/db/userNotificationSettings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/db/userNotificationSettings.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/jobListings/actions/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/jobListings/actions/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/jobListings/components/JobListingForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/jobListings/components/JobListingForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useIsDarkMode.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useIsDarkMode.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/employer/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/employer/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/users/components/SidebarUserButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/users/components/SidebarUserButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/users/components/_SidebarUserButtonClient.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/users/components/_SidebarUserButtonClient.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +89,11 @@
       <recent name="$PROJECT_DIR$/src/app/employer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/employer" />
       <recent name="$PROJECT_DIR$/src/features" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/features/organizations/jobListings/db" />
-      <recent name="$PROJECT_DIR$/src/components/sidebar" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
@@ -141,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753764001577</updated>
       <workItem from="1753764002908" duration="71402000" />
-      <workItem from="1754276724909" duration="9141000" />
+      <workItem from="1754276724909" duration="10906000" />
     </task>
     <servers />
   </component>
