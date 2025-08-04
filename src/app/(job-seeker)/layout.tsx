@@ -4,12 +4,18 @@ import {BrainCircuitIcon, ClipboardListIcon, LayoutDashboard, LogInIcon} from "l
 import {SidebarUserButton} from "@/features/users/components/SidebarUserButton";
 import {SidebarNavMenuGroup} from "@/components/sidebar/SidebarNavMenuGroup";
 
-export default function JobSeekerLayout({children}: { children: ReactNode }) {
+export default function JobSeekerLayout({
+                                            children,
+                                            sidebar,
+                                        }: {
+    children: ReactNode
+    sidebar: ReactNode
+}) {
     return (
         <AppSidebar content={
             <>
                 <SidebarNavMenuGroup
-                    className="mt-auto font-light"
+                    className="mt-auto"
                     items={[
                         {href: "/", icon: <ClipboardListIcon/>, label: "Job Board"},
                         {href: "/ai-search", icon: <BrainCircuitIcon/>, label: "AI Search",},
@@ -22,6 +28,7 @@ export default function JobSeekerLayout({children}: { children: ReactNode }) {
                         {href: "/sign-in", icon: <LogInIcon/>, label: "Sign In", authStatus: "signedOut",},
                     ]}
                 />
+                {sidebar}
             </>
         } footerButton={
             <SidebarUserButton/>

@@ -27,7 +27,7 @@ export function AppSidebar({
                 <Sidebar collapsible="icon" className="overflow-hidden">
                     <SidebarHeader className="flex-row">
                         <SidebarTrigger/>
-                        <span className="mt-0.5 text-xl text-nowrap tracking-wider font-extrabold">Hirevo</span>
+                        <span className="mt-0.5 text-xl text-nowrap tracking-wider font-bold">Hirevo</span>
                     </SidebarHeader>
 
                     <SidebarContent>
