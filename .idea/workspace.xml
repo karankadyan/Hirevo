@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efc972b-0925-402d-bc6d-6b13ca61d3f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/(job-seeker)/job-listings/[jobListingId]/_ClientSheet.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(job-seeker)/job-listings/[jobListingId]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IsBreakpoint.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoadingSpinner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(job-seeker)/_shared/UserSettingsSidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(job-seeker)/user-settings/notifications/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(job-seeker)/user-settings/resume/_DropzoneClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(job-seeker)/user-settings/resume/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/uploadthing/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -127,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753764001577</updated>
       <workItem from="1753764002908" duration="71402000" />
-      <workItem from="1754276724909" duration="14320000" />
+      <workItem from="1754276724909" duration="19848000" />
     </task>
     <servers />
   </component>
