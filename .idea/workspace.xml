@@ -5,23 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efc972b-0925-402d-bc6d-6b13ca61d3f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/LoadingSwap.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/markdown/MarkdownEditor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/markdown/MarkdownPartial.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/markdown/MarkdownRenderer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/markdown/_MarkdownEditor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/states.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/jobListings/actions/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/jobListings/actions/schemas.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/jobListings/components/JobListingForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/jobListings/components/StateSelectItems.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/jobListings/lib/formatters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/employer/job-listings/[jobListingId]/edit/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/employer/pricing/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ActionButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AsyncIf.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/jobListings/components/JobListingBadges.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/jobListings/lib/planfeatureHelpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/jobListings/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/clerk/components/PricingTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/clerk/lib/orgUserPermissions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/clerk/lib/planFeatures.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employer/job-listing/new/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/employer/job-listings/new/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/employer/job-listings/[jobListingId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/employer/job-listings/[jobListingId]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/SidebarNavMenuGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/SidebarNavMenuGroup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/badge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/db/userNotificationSettings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/db/userNotificationSettings.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/jobListings/actions/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/jobListings/actions/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/jobListings/components/JobListingForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/jobListings/components/JobListingForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useIsDarkMode.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useIsDarkMode.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,30 +34,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "karankadyan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;karankadyan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/karankadyan/Hirevo.git",
-    "accountId": "5c6bad8d-bbfb-45a7-b7e3-80067d048c7c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/karankadyan/Hirevo.git&quot;,
+    &quot;accountId&quot;: &quot;5c6bad8d-bbfb-45a7-b7e3-80067d048c7c&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="30XBO05VHaMhVTIBUxuOHBm6l1s" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -69,9 +75,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/karankadyan/Developer/AI-Projects/AI Job Board/hirevo/src/app/employer",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "/Users/karankadyan/Developer/AI-Projects/AI Job Board/hirevo/src/app/employer/job-listings/[jobListingId]/edit",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,6 +100,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/employer/job-listings/[jobListingId]/edit" />
       <recent name="$PROJECT_DIR$/src/app/employer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -100,6 +110,21 @@
       <recent name="$PROJECT_DIR$/src/features/organizations/jobListings/db" />
       <recent name="$PROJECT_DIR$/src/components/sidebar" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -115,7 +140,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753764001577</updated>
-      <workItem from="1753764002908" duration="60882000" />
+      <workItem from="1753764002908" duration="71402000" />
+      <workItem from="1754276724909" duration="9141000" />
     </task>
     <servers />
   </component>

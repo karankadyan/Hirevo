@@ -4,6 +4,7 @@ import {SidebarGroup, SidebarMenu, SidebarMenuButton, SidebarMenuItem} from "@/c
 import {SignedIn, SignedOut} from "@/services/clerk/components/SignedInStatus";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
+import {ReactNode} from "react";
 
 export function SidebarNavMenuGroup({items, className}: {
     items: {

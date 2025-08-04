@@ -40,8 +40,7 @@ import { Button } from "@/components/ui/button"
 import {StateSelectItems} from "@/features/jobListings/components/StateSelectItems";
 import { MarkdownEditor } from "@/components/markdown/MarkdownEditor"
 import { LoadingSwap } from "@/components/LoadingSwap"
-import { createJobListing } from "../actions/actions"
-// import { createJobListing, updateJobListing } from "../actions/actions"
+import { createJobListing, updateJobListing } from "../actions/actions"
 
 const NONE_SELECT_VALUE = "none"
 
@@ -78,12 +77,12 @@ export function JobListingForm({
     })
 
     async function onSubmit(data: z.infer<typeof jobListingSchema>) {
-        // const action = jobListing
-        //     // ? updateJobListing.bind(null, jobListing.id)
-        //     : createJobListing
-        // const res = await action(data)
+        const action = jobListing
+            ? updateJobListing.bind(null, jobListing.id)
+            : createJobListing
+        const res = await action(data)
 
-        const res = await createJobListing(data)
+        // const res = await createJobListing(data)
         if (res.error) {
             toast.error(res.message)
         }
